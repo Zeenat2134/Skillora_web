@@ -16,20 +16,12 @@ function SectionHeader({ title, subtitle }) {
 export default function HomePage() {
   // Array of game data - UPDATED AS PER YOUR REQUEST
   const gamesList = [
-    //{ id: 1, title: "Periodic Table Treasure Hunt", description: "An alchemy-themed chemistry puzzle.", imageUrl: "https://placehold.co/600x400/3498db/ffffff?text=Chemistry" },
-    // { id: 2, title: "Motor Works", description: "Build a DC motor and see physics in action.", imageUrl: "https://placehold.co/600x400/9b59b6/ffffff?text=Physics" },
-    // { id: 3, title: "Human Body Explorer", description: "Solve medical mysteries in this biology game.", imageUrl: "https://placehold.co/600x400/2ecc71/ffffff?text=Biology" },
-    // { id: 4, title: "The Perfect Pour", description: "A business sim about math and lassi.", imageUrl: "https://placehold.co/600x400/f39c12/ffffff?text=Maths" },
-    // { id: 5, title: "Industry Architect", description: "A geography puzzle of resource management.", imageUrl: "https://placehold.co/600x400/7f8c8d/ffffff?text=Social+Science" },
-    // { id: 6, title: "Melody Sculptor", description: "A 3D sandbox for building musical sculptures.", imageUrl: "https://placehold.co/600x400/a855f7/ffffff?text=Creative" },
+    { id: 1, title: "Periodic Table Treasure Hunt", description: "An alchemy-themed chemistry puzzle.", imageUrl: "https://placehold.co/600x400/3498db/ffffff?text=Chemistry" },
+    { id: 2, title: "Motor Works", description: "Build a DC motor and see physics in action.", imageUrl: "https://placehold.co/600x400/9b59b6/ffffff?text=Physics" },
+    { id: 3, title: "Human Body Explorer", description: "Solve medical mysteries in this biology game.", imageUrl: "https://placehold.co/600x400/2ecc71/ffffff?text=Biology" },
+    { id: 4, title: "The Perfect Pour", description: "A business sim about math and lassi.", imageUrl: "https://placehold.co/600x400/f39c12/ffffff?text=Maths" },
+    { id: 5, title: "Industry Architect", description: "A geography puzzle of resource management.", imageUrl: "https://placehold.co/600x400/7f8c8d/ffffff?text=Social+Science" },
     
-    { id: 1, title: "Periodic Table Treasure Hunt", description: "An alchemy-themed chemistry puzzle.", imageUrl: "Chem.jpeg" },
-    { id: 5, title: "Industry Architect", description: "A geography puzzle of resource management.", imageUrl: "Social.jpeg" },
-    { id: 6, title: "Melody Sculptor", description: "A 3D sandbox for building musical sculptures.", imageUrl: "Melody.jpeg" },
-    { id: 3, title: "Human Body Explorer", description: "Solve medical mysteries in this biology game.", imageUrl: "Bio.jpeg" },
-    { id: 7, title: "Celestial Architect", description: "Design Miniature Solar System", imageUrl: "Solar.jpeg" },
-    { id: 4, title: "The Perfect Pour", description: "A business sim about math and lassi.", imageUrl: "Math.jpeg" },
-    { id: 2, title: "Motor Works", description: "Build a DC motor and see physics in action.", imageUrl: "Phy.jpg" },
   ];
 
   // Scroll state for hero transitions

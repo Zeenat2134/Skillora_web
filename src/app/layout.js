@@ -73,7 +73,7 @@ function Navbar() {
     >
       <div className="flex items-center gap-3">
         <Link href="/" className="flex items-center gap-2">
-          <img src="/logo.jpg" alt="Skillora Logo" className="w-8 h-8 rounded-full bg-white shadow" />
+          <img src="logo.jpg" alt="Skillora Logo" className="w-8 h-8 rounded-full bg-white shadow" />
           <span className="text-xl font-bold text-black">Skillora</span>
         </Link>
       </div>

@@ -3,7 +3,7 @@ import MotorWorksGame from "@/components/MotorWorksGame";
 import HumanBodyGame from "@/components/HumanBodyGame";
 import PerfectPourGame from "@/components/PerfectPourGame";
 import IndustryArchitectGame from "@/components/IndustryArchitectGame";
-import MelodySculptorGame from "@/components/MelodySculptorGame";
+
 
 const gamesList = [
   { id: 1, title: "Periodic Table Treasure Hunt", description: "An alchemy-themed chemistry puzzle." },
@@ -11,7 +11,6 @@ const gamesList = [
   { id: 3, title: "Human Body Explorer", description: "Solve medical mysteries in this biology game." },
   { id: 4, title: "The Perfect Pour", description: "A business sim about math and lassi." },
   { id: 5, title: "Industry Architect", description: "A geography puzzle of resource management." },
-  { id: 6, title: "Melody Sculptor", description: "A 3D sandbox for building musical sculptures." },
 ];
 
 export default function GamePage({ params }) {
@@ -38,8 +37,6 @@ export default function GamePage({ params }) {
     GameComponent = <PerfectPourGame />;
   } else if (game.id === 5) {
     GameComponent = <IndustryArchitectGame />;
-  } else if (game.id === 6) {
-    GameComponent = <MelodySculptorGame />;
   }
 
   return (
