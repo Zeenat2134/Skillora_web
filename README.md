@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Skillora: The Ultimate Learning Playground 🚀
+Skillora is a "Made in India" digital platform designed to revolutionize education by blending academic learning with creative play. Developed as a response to the "Swadeshi for Atmanirbhar Bharat - Toys & Games" challenge, it transforms complex subjects into engaging, interactive video games.
 
-## Getting Started
+🌟 Features & Games
+Skillora features a diverse suite of games spanning multiple disciplines:
+●	🧪 Alchemist's Treasure Hunt (Chemistry): A puzzle game to master the periodic table through drag-and-drop mechanics on a realistic map.
 
-First, run the development server:
+●	⚙️ Motor Works (Physics): A virtual workshop where users build a DC motor and watch a real-time 3D simulation of electromagnetic forces.
 
-```bash
+●	🏭 Industry Architect (Geography): A strategic resource management game set on a map of India to determine optimal industrial locations.
+
+●	🧮 The Perfect Pour (Mathematics): A business simulation applying Mensuration, Arithmetic Progressions, and Quadratic Equations to run a shop.
+
+●	🫀 Human Body Explorer (Biology): An interactive medical mystery game involving case files, diagnosis, and visual analysis.
+
+🛠️ Tech Stack
+Frontend:
+●	Next.js 15 (React Framework) - Core application structure and routing.
+
+●	React 18 - Component-based UI architecture.
+
+●	Tailwind CSS - Utility-first styling for responsive design.
+
+Interactivity & Graphics:
+●	@dnd-kit/core - Robust drag-and-drop primitives for 2D puzzles.
+
+●	HTML5 Canvas - Custom 2D physics simulations.
+
+●	react-icons - Providing UI icons.
+
+
+Backend (BaaS):
+●	Google Firebase - Authentication, Firestore Database (NoSQL), and Hosting.
+
+📋 Prerequisites
+Before running the project, ensure you have the following installed:
+
+●	Node.js (v18.0.0 or higher recommended)
+
+●	npm (Node Package Manager)
+
+🚀 Installation & Setup
+Follow these steps to set up the project locally:
+1.	Clone the repository:
+git clone [https://github.com/your-username/skillora.git](https://github.com/your-username/skillora.git)
+cd skillora
+
+2.	Install Dependencies:
+Run the following command to install all required packages listed in package.json:
+npm install
+
+3.	Install Specific Libraries:
+If they were not automatically installed, ensure you have these key packages:
+npm install react-icons @dnd-kit/core firebase
+
+4.	Run the Development Server:
+Start the local server to view the application:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5.	Open in Browser:
+Visit http://localhost:3000 to see Skillora in action.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📦 Key Dependencies
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project relies on these primary packages:
 
-## Learn More
+next ---> latest	--------> The React framework for the app.
 
-To learn more about Next.js, take a look at the following resources:
+react	---> latest	--------> Core UI library.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+@dnd-kit/core ---> latest --------> Handling drag-and-drop interactions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+react-icons	---> latest --------> Providing UI icons (Home, Restart, Tools).
 
-## Deploy on Vercel
+firebase	---> latest --------> Backend services connection.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+📁 Project Structure
+
+●	src/app/: Contains the main page routing logic (page.js, layout.js, globals.css).
+
+●	src/app/games/[id]/: Dynamic routing file for loading individual games. 
+
+●	src/components/: Contains all self-contained game logic files (e.g., MotorWorksGame.js, PeriodicTableGame.js).
+
+●	src/data/: Stores static data arrays like elements or level definitions.
+
+🤝 Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any new game modules or features.
+Skillora Team - Learning Made Fun.
