@@ -54,7 +54,7 @@ npm run dev
 ```
 
 Open in Browser: 
-Visit  http://localhost:3000 to see Skillora in action.
+Visit  local host link generated  to see Skillora in action.
 
 📦 Key Dependencies
 
